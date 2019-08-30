@@ -1,0 +1,29 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+//Questão 8
+    int n1, n2, n3;
+
+            printf("Escreva o primeiro numero: ");
+            scanf("%d", &n1);
+            printf("Escreva o primeiro numero: ");
+            scanf("%d", &n2);
+
+        while (n2==0){
+        printf("Digite outro numero:");
+        scanf("%d", &n2);
+                }
+        n3 = n1/n2;
+
+        printf("O resultado é: %d", n3);
+
+    int n1=8;
+
+/*Questão 9
+    for(int vaca = 1; vaca <=10 ; vaca ++){
+    printf("%d x %d = %d\n",n1,vaca, n1*vaca);}
+*/
+    return 0;
+}
