@@ -1,0 +1,26 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+int n1, n2;
+
+printf("Digite o Primeiro número: \n");
+scanf("%i", &n1);
+
+printf("Digite o Primeiro número: \n");
+scanf("%i", &n2);
+
+    if(n1>n2){
+        printf("primeiro maior");
+            }else{
+                if(n1<n2){
+                    printf("Segundo maior");
+                         }else{
+                              printf("Iguais");
+                              }
+                 }
+
+
+    return 0;
+}
