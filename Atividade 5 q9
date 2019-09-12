@@ -1,0 +1,25 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(){
+  
+    int n2, n3;
+    int n1 = 8;
+
+            printf("Escreva o primeiro numero: ");
+            scanf("%d", &n1);
+            printf("Escreva o primeiro numero: ");
+            scanf("%d", &n2);
+
+        while (n2==0){
+        printf("Digite outro numero:");
+        scanf("%d", &n2);
+                }
+        n3 = n1/n2;
+
+        printf("O resultado e: %d", n3);
+
+
+
+    return 0;
+}
