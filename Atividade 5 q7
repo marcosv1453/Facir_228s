@@ -1,0 +1,22 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+float n1, n2, n3;
+
+printf("Digite o Primeiro numero: \n");
+scanf("%f", &n1);
+
+printf("Digite o Primeiro numero: \n");
+scanf("%f", &n2);
+
+    n3 = (n1*2 + n2*7)/9;
+
+    printf("A media ponderada entre %f e %f e igual a: %f \n", n1, n2, n3);
+
+
+
+return 0;
+
+}
