@@ -1,0 +1,21 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+int n1, n2, n3;
+
+printf("Digite o Primeiro número: \n");
+scanf("%i", &n1);
+
+printf("Digite o Primeiro número: \n");
+scanf("%i", &n2);
+
+    n3 = n1 * n2;
+
+    printf("A multiplicação de %i e %i e: %i \n", n1, n2, n3);
+
+
+
+    return 0;
+}
