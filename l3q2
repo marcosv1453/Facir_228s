@@ -1,0 +1,29 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    int n, s, st, c, d; //nomeclatura das variáveis respectivamente : Numero, Saldo, Saldo Total, Crédito e Débito
+
+    printf("Digite o número da sua conta\n");
+    scanf("%d", &n);
+
+    printf("Digite seu saldo\n");
+    scanf("%d", &s);
+
+    printf("Digite o valor de credito\n");
+    scanf("%d", &c);
+
+    printf("Digite o valor de debito\n");
+    scanf("%d", &d);
+
+        st = s - d + c;
+
+    printf("==========Conta:%i==========\n", n);
+    printf("==========Saldo:%i==========\n", s);
+    printf("=========Credito:%i=========\n", c);
+    printf("=========Debito:%i==========\n", d);
+    printf("=======Saldo total:%i=======\n", st);
+
+    return 0;
+}
